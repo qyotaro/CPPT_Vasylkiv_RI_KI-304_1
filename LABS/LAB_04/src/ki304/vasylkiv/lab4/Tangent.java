@@ -22,10 +22,10 @@ public class Tangent {
         try {
             y = Math.tan(rad);
             if (y == Double.NaN || y == Double.NEGATIVE_INFINITY || y == Double.POSITIVE_INFINITY || x == 90
-                    || x == -90)
+                    || x == -90 || x == 270 || x == -270)
                 throw new ArithmeticException();
         } catch (ArithmeticException ex) {
-            if (rad == Math.PI / 2.0 || rad == -Math.PI / 2.0)
+            if (rad == Math.PI / 2.0 || rad == -Math.PI / 2.0 || rad == 3*(Math.PI / 2.0) || rad == 3*(-Math.PI / 2.0))
                 throw new CalcException("Exception reason: Illegal value of X for tangent calculation");
             else
                 throw new CalcException("Unknown reason of the exception during exception calculation");
