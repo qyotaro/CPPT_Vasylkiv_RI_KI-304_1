@@ -1,0 +1,48 @@
+First name: unknown
+Last name: unknown
+Age: 0
+
+Personal data has been changed
+
+First name: Nicola
+Last name: Kovac
+Age: 26
+
+Nicola Kovac's Address: unknown, unknown, unknown 0
+
+Address of residence changed
+
+Nicola Kovac's Address: Ukraine, Lviv, Horodotska  21
+
+Weight and height data changed
+
+Body weight: 67.0
+Height: 172.0
+
+Health status: normal body weight.
+
+The activity mode is set to STANDING
+
+Activity mode changed to MOVING
+
+Nicola Kovachas grown up.
+
+Activity mode changed to SITTING
+
+Sport has been changed to Basketball
+
+The athlete is now competing in Basketball
+
+Sport competition started.
+
+Sport competition finished.
+
+ALL INFORMATION ABOUT THE PERSON: 
+
+First name: Nicola
+Last name: Kovac
+Age: 27
+Address: Ukraine, Lviv, Horodotska  21
+The athlete's sport: Basketball
+Health status: normal body weight.
+

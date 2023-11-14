@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"ki304.vasylkiv.lab4","l":"CalcException"},{"p":"ki304.vasylkiv.lab4","l":"Tangent"},{"p":"ki304.vasylkiv.lab4","l":"TangentApp"}];updateSearchResults();
