@@ -1,1 +1,1 @@
-memberSearchIndex = [{"p":"ki304.vasylkiv.lab4","c":"Tangent","l":"calculate(int)"},{"p":"ki304.vasylkiv.lab4","c":"Tangent","l":"Tangent()","u":"%3Cinit%3E()"}];updateSearchResults();
+memberSearchIndex = [{"p":"ki304.vasylkiv.lab4","c":"TangentApp","l":"main(String[])","u":"main(java.lang.String[])"},{"p":"ki304.vasylkiv.lab4","c":"TangentApp","l":"TangentApp()","u":"%3Cinit%3E()"}];updateSearchResults();

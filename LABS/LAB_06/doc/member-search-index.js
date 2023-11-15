@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"ki304.vasylkiv.lab6","c":"ArrayApp","l":"ArrayApp()","u":"%3Cinit%3E()"},{"p":"ki304.vasylkiv.lab6","c":"ArrayApp","l":"main(String[])","u":"main(java.lang.String[])"}];updateSearchResults();
