@@ -4,7 +4,7 @@ import java.util.Arrays;
 /**
  * Class <code>IntArray</code> implements the ArrayObject interface
  */
-class IntArray implements ArrayObject {
+public class IntArray implements ArrayObject {
     private String name;
     private int[] array;
 
@@ -46,5 +46,21 @@ class IntArray implements ArrayObject {
      */
     public void printData() {
         System.out.print("Name: " + name + ", Array: " + Arrays.toString(array) + ", Sum: " + getSum() + ";\n");
+    }
+    
+    /**
+     * Method changes the name of an array
+     * @param newName the new name for the array
+     */
+    public void changeIName(String newName) {
+       name = newName;
+    }
+
+    /**
+     * Method changes numbers in an array
+     * @param newArray the new array of numbers
+     */
+    public void changeIntNumbers(int[] newArray) {
+        array = newArray;
     }
 }

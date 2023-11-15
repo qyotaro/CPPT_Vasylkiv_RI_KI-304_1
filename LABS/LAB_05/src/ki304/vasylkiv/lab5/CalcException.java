@@ -1,4 +1,5 @@
 package ki304.vasylkiv.lab5;
+
 /**
 * Class <code>CalcException</code> more precises ArithmeticException
 * @author Rostyslav Vasylkiv

@@ -5,7 +5,7 @@ import java.util.ArrayList;
  * Parameterized class <code>ArrayContainer</code> implements Array
  */
 
-class ArrayContainer<T extends ArrayObject> {
+public class ArrayContainer<T extends ArrayObject> {
     private ArrayList<T> array;
 
     /**

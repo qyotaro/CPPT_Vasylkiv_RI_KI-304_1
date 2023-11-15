@@ -4,7 +4,7 @@ import java.util.*;
 /**
  * Class <code>DoubleArray</code> implements the ArrayObject interface
  */
-class DoubleArray implements ArrayObject {
+public class DoubleArray implements ArrayObject {
     private String name;
     private double[] array;
 
@@ -47,4 +47,21 @@ class DoubleArray implements ArrayObject {
     public void printData() {
         System.out.print("Name: " + name + ", Array: " + Arrays.toString(array) + ", Sum: " + getSum() + ";\n");
     }
+    
+    /**
+     * Method changes the name of an array
+     * @param newName the new name for the array
+     */
+    public void changeDName(String newName) {
+       name = newName;
+    }
+
+    /**
+     * Method changes numbers in an array
+     * @param newArray the new array of numbers
+     */
+    public void changeDoubleNumbers(double[] newArray) {
+        array = newArray;
+    }
+
 }

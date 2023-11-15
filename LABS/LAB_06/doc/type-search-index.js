@@ -1,1 +1,1 @@
-typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"ki304.vasylkiv.lab6","l":"ArrayApp"}];updateSearchResults();
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"ki304.vasylkiv.lab6","l":"ArrayApp"},{"p":"ki304.vasylkiv.lab6","l":"ArrayContainer"},{"p":"ki304.vasylkiv.lab6","l":"ArrayObject"},{"p":"ki304.vasylkiv.lab6","l":"DoubleArray"},{"p":"ki304.vasylkiv.lab6","l":"IntArray"}];updateSearchResults();

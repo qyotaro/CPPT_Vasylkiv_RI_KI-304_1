@@ -1,6 +1,6 @@
 package ki304.vasylkiv.lab5;
-
 import java.util.Scanner;
+
 /**
  * Class <code>TangentApp</code> Implements driver for Tangent class
  * 
