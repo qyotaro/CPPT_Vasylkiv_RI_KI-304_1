@@ -1,32 +1,26 @@
-
 import sys
 def execute():  
 
-    nRows = int(input("Введіть розмір квадратної матриці: "))
+    # введення розміру квадратної матриці
+    n = int(input("Введіть розмір квадратної матриці: "))
+    lst = []
+    # введення символ-заповнювачу
     filler = input("Введіть символ-заповнювач: ")
+    # опрацювання виключень
+    if len(filler) == 1:
+        # вивід матрці та заповнення
+        for i in range(n):
+            lst.append([])
+            for j in range(n):
+                if j >= i:
+                    lst[i].append(ord(filler))
+                else:
+                    lst[i].append(ord(' '))
+                print(chr(lst[i][j]), end=" ")
+            print() 
+    elif len(filler) == 0:
+        print("Не введено символ-заповнювач")
+    else:
+        print("Забагато символів-заповнювачів")
 
-   # введення символа заповнювача квадратної матриці і первірка на те, чи він 1
-    if len(filler) != 1:
-        print("Потрібно ввести лише один символ!")
-        sys.exit()
-
-    lst = [[None for j in range(nRows)] for i in range(nRows)]
-
-    # заповнення зубчастої матриці згідно варіанту
-    for i in range(nRows):
-        for j in range(nRows - i):
-            lst[i][j + i] = filler
-
-    # дозаповнення пустих елементів зубчастої матриці для зручного виводу
-    for i in range(nRows):
-        for j in range(nRows):
-            if lst[i][j] != filler:
-                lst[i][j] = " "
-
-    # вивід матриці   
-    print("\nЗгенерований зубчатий список:")
-    for i in range(nRows):
-        for j in range(nRows):
-            print(lst[i][j], end=" ")
-        print()
-
+    

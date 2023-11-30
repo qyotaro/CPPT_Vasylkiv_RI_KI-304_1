@@ -3,7 +3,7 @@ package ki304.vasylkiv.lab6;
 /**
  * Class ArrayApp realize example program for lab 6
  * 
- * @author Rostyslav Vsylkiv
+ * @author Rostyslav Vasylkiv
  * @version 1.0
  */
 

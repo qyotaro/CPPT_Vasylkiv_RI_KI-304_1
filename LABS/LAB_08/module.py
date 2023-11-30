@@ -51,7 +51,7 @@ def calculate(x):
         print(f"Помилка значення: {e}")
     return None
 
-    return res
+    
 
 def execute():
     data = float(input("Enter data: "))
