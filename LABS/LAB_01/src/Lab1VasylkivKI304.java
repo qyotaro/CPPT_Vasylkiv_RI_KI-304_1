@@ -28,8 +28,11 @@ public class Lab1VasylkivKI304 {
         nRows = in.nextInt();
         in.nextLine();
         
-        arr = new char[nRows][nRows]; 
-        
+        arr = new char[nRows][];
+        for(int i = 0; i < nRows; i++) {
+        	arr[i]= new char[nRows];
+        }
+
         System.out.print("Введіть символ-заповнювач: ");
         filler = in.nextLine();
         
