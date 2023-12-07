@@ -21,13 +21,13 @@ class HealthStatus:
             return "Health status: obese."
 
     # Method: Sets a new weight and updates the BMI.
-    def setWeight(self, new_weight):
-        self.__weight = new_weight
+    def setWeight(self, newWeight):
+        self.__weight = newWeight
         self.updateBMI()
 
     # Method: Sets a new height and updates the BMI.
-    def setHeight(self, new_height):
-        self.__height = new_height
+    def setHeight(self, newHeight):
+        self.__height = newHeight
         self.updateBMI()
 
     # Method: Updates the BMI based on the current weight and height.

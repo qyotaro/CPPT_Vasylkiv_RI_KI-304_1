@@ -1,38 +1,38 @@
 class PersonalInfo:
     
     # Constructor
-    def __init__(self, first_name="unknown", last_name="unknown", age=0):
-        self.__first_name = first_name
-        self.__last_name = last_name
+    def __init__(self, firsame="unknown", lastName="unknown", age=0):
+        self.__first_name = firsame
+        self.__last_name = lastName
         self.__age = age
 
     # Method: Sets the first_name attribute of the PersonalInfo object.
-    def setFirstName(self, new_first_name):
-        self.__first_name = new_first_name
+    def setFirstName(self, newFirstName):
+        self.__first_name = newFirstName
 
     # Method: Returns the first_name attribute of the PersonalInfo object.
     def getFirstName(self):
         return self.__first_name
 
     # Method: Sets the last_name attribute of the PersonalInfo object.
-    def setLastName(self, new_last_name):
-        self.__last_name = new_last_name
+    def setLastName(self, newLastName):
+        self.__last_name = newLastName
 
     # Method: Returns the last_name attribute of the PersonalInfo object.
     def getLastName(self):
         return self.__last_name
 
     # Method: Sets the age attribute of the PersonalInfo object.
-    def setAge(self, new_age):
-        self.__age = new_age
+    def setAge(self, newAge):
+        self.__age = newAge
 
     # Method: Returns the age attribute of the PersonalInfo object.
     def getAge(self):
         return self.__age
 
     # Method: Changes the age attribute of the PersonalInfo object.
-    def changeAge(self, new_age):
-        self.setAge(new_age)
+    def changeAge(self, newAge):
+        self.setAge(newAge)
 
     # Method: Increases the age attribute of the PersonalInfo object by 1.
     def growUp(self):

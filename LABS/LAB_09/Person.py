@@ -21,18 +21,18 @@ class Person:
         print()
 
     # Method: Changes the address of residence of the Person object.
-    def changeAddress(self, new_country, new_city, new_street, new_house_number):
-        self.__address.setCountry(new_country)
-        self.__address.setCity(new_city)
-        self.__address.setStreet(new_street)
-        self.__address.setHouseNumber(new_house_number)
+    def changeAddress(self, newCountry, newCity, newStreet, newHouseNumber):
+        self.__address.setCountry(newCountry)
+        self.__address.setCity(newCity)
+        self.__address.setStreet(newStreet)
+        self.__address.setHouseNumber(newHouseNumber)
         print("Address of residence changed")
         print()
 
     # Method: Changes the weight and height data of the Person object.
-    def changeWeightAndHeight(self, new_weight, new_height):
-        self.__healthStatus.setWeight(new_weight)
-        self.__healthStatus.setHeight(new_height)
+    def changeWeightAndHeight(self, newWeight, newHeight):
+        self.__healthStatus.setWeight(newWeight)
+        self.__healthStatus.setHeight(newHeight)
         self.__healthStatus.updateBMI()
         print("Weight and height data changed")
         print()
