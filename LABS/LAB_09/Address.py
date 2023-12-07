@@ -15,12 +15,12 @@ class Address:
         self.__city = newCity
 
     # Method: Sets the street attribute of the Address object.
-    def setStreet(self, new_street):
-        self.__street = new_street
+    def setStreet(self, newStreet):
+        self.__street = newStreet
 
     # Method: Sets the house_number attribute of the Address object.
-    def setHouseNumber(self, new_house_number):
-        self.__house_number = new_house_number
+    def setHouseNumber(self, newHouseNumber):
+        self.__house_number = newHouseNumber
 
     # Method: Returns the country attribute of the Address object.
     def getCountry(self):
